@@ -19,6 +19,7 @@ let package = Package(
         .target(
             name: "SecondaryTabView",
             dependencies: [],
-            path: "Sources/"),
+            path: "Sources/",
+            exclude: ["Sources/SecondaryTabView.podspec"]),
     ]
 )
