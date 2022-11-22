@@ -204,7 +204,7 @@ struct SecondaryTabView_Previews: PreviewProvider {
         @State private var selection: Item = .first
 
         var body: some View {
-            NavigationStack {
+            NavigationView {
                 SecondaryTabView(
                     selection: $selection,
                     content: {
