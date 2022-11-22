@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SecondaryTabView'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = 'A secondary tab navigation view that appears on the top of the screen, right below the primary navigation bar.'
 
   s.homepage         = 'https://github.com/DJBen'
